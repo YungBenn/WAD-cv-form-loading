@@ -16,8 +16,8 @@ body {
    /* border: 5px solid; */
    border-radius: 10px;
    border-radius: 50px;
-background: #e0e0e0;
-box-shadow: inset 20px 20px 60px #bebebe,
+   background: #e0e0e0;
+   box-shadow: inset 20px 20px 60px #bebebe,
             inset -20px -20px 60px #ffffff;
 }
 
