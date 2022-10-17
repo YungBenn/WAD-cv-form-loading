@@ -1,0 +1,28 @@
+table {
+   border-collapse:separate;
+   border:solid black 1px;
+   border-radius:6px;
+}
+
+.container {
+   background-color: bisque;
+   padding: 30px;
+   margin-inline: 30%;
+   border-radius: 25px;
+}
+
+.nama {
+   background-color:lightgreen;
+}
+
+.diagnosis {
+   background-color:lightgreen;
+}
+
+.pemeriksaan {
+   background-color:lightgreen;
+}
+
+.rekomendasi {
+   background-color:lightgreen;
+}
