@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <title>Tugas Form</title>
+</head>
+<body>
+   <center>
+      <h1 style="color: green;">YUNGBENN MEDICAL</h1>
+      <h2><u>Formulir Berobat Jalan Mahasiswa</u></h2>
+
+      <table border="0">
+         <tr>
+            <td>
+               <label for="nama">Nama Dokter :&emsp;</label>
+            </td>
+            <td>
+               <input type="text" name="input nama pekerja">
+            </td>
+         </tr>
+         <tr>
+            <td>
+               <label for="nim">No. Dokter :</label>
+            </td>
+            <td>
+               <input type="text" name="input no. pekerja">
+            </td>
+         </tr>
+         <tr>
+            <td>
+               <label for="taggal">Tanggal :</label>
+            </td>
+            <td>
+               <input type="date" name="tanggal" id="">
+            </td>
+         </tr>
+      </table>
+
+      <br>
+
+      <table border="1" style="border-collapse: collapse;">
+         <tr>
+            <td colspan="2" style="background-color: yellow;">
+               <strong>
+                  <center>
+                     DIISI OLEH DOKTER*
+                  </center>
+               </strong>
+            </td>
+         </tr>
+         <tr>
+            <td colspan="2">
+               <center>
+                  <input type="radio" name="jenis">Gigi
+                  <input type="radio" name="jenis">Umum
+                  <input type="radio" name="jenis">Spesialis
+               </center>
+            </td>
+         </tr>
+         <tr>
+            <td>
+               <label for="area">&emsp14; NAMA MAHASISWA &emsp14;</label>
+            </td>
+            <td>
+               <form action="">
+                  <textarea name="textarea" cols="35" rows="5"></textarea>
+               </form>
+            </td>
+         </tr>
+         <tr>
+            <td>
+               <label for="area">&emsp14; DIAGNOSIS &emsp14;</label>
+            </td>
+            <td>
+               <form action="">
+                  <textarea name="textarea" cols="35" rows="5"></textarea>
+               </form>
+            </td>
+         </tr>
+         <tr>
+            <td>
+               <label for="area">&emsp14; PEMERIKSAAN PENUNJANG &emsp14;<br>&emsp14; YANG DILAKUKAN &emsp14;</label>
+            </td>
+            <td>
+               <form action="">
+                  <textarea name="textarea" cols="35" rows="5"></textarea>
+               </form>
+            </td>
+         </tr>
+         <tr>
+            <td>
+               <label for="area">&emsp14; REKOMENDASI DAN &emsp14;<br>&emsp14; TATALAKSANA &emsp14;</label>
+            </td>
+            <td>
+               <form action="">
+                  <textarea name="textarea" cols="35" rows="5"></textarea>
+               </form>
+            </td>
+         </tr>
+      </table>
+
+      <P>
+         *Mohon diisi sesuai dengan diagnosis dan hasil pemeriksaan
+      </P>
+
+      <table border="0">
+         <tr>
+            <td>
+               <strong>
+                  <label for="ttd dokter">Tanda Tangan Dokter :&emsp;</label>
+               </strong>
+            </td>
+            <td>
+               <input type="file" name="ttd dokter">
+            </td>
+         </tr>
+         <tr>
+            <td>
+               <strong>
+                  <label for="ttd mahasiswa">Tanda Tangan Mahasiswa :&emsp;</label>
+               </strong>
+            </td>
+            <td>
+               <input type="file" name="ttd mahasiswa">
+            </td>
+         </tr>
+      </table>
+      <br>
+      <input type="submit" value="Submit">
+   </center>
+</body>
+</html>
